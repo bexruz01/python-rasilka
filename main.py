@@ -7,8 +7,8 @@ from fastapi import FastAPI
 import telebot
 
 app = FastAPI()
-api_id = 20001255
-api_hash = "530870324c26269611976acfc150aa1e"
+api_id = 25910820
+api_hash = "10a2c01ca3d4c79a6c66a486f15af986"
 
 client = Client("test_account", api_id=api_id, api_hash=api_hash)
 
